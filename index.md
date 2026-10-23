@@ -145,9 +145,9 @@ We may also disclose information if the law requires it, or to protect the right
 
 Before the App sends anything to an AI provider for the first time, it shows a **Data Sharing Consent** screen that names the providers and the data sent. Nothing is sent until you agree. If the providers change, the App asks you again.
 
-You can withdraw consent at any time in **Profile → Privacy → AI data sharing**. After that, AI features stop until you agree again. Withdrawing consent does not undo requests already made.
+You can withdraw consent at any time, as easily as you gave it: use **Profile → Privacy → Delete My Data**, which also clears your consent, or email us at [info@webomax.net](mailto:info@webomax.net). After that, AI features stop until you agree again. Withdrawing consent does not undo requests already made.
 
-The support chat has its own separate consent, which you can withdraw in **Profile → Privacy → Support chat data sharing**.
+The support chat has its own separate consent, which you can withdraw the same way.
 
 ## 6. Data Retention
 
@@ -165,7 +165,7 @@ The support chat has its own separate consent, which you can withdraw in **Profi
 
 - **Delete everything:** **Profile → Privacy → Delete My Data** deletes your wardrobe, photos, looks, history and settings on the device, and your anonymous account and usage records on our server. This cannot be undone. It does not cancel a subscription.
 - **Delete single items:** remove any wardrobe item or saved look at any time.
-- **Withdraw consent:** **Profile → Privacy**.
+- **Withdraw consent:** **Profile → Privacy → Delete My Data**, or email us.
 - **Subscription records held by RevenueCat, support conversations and support tickets:** email us to have them deleted.
 - **Manage your subscription:** iOS: Settings → [your name] → Subscriptions. Android: Google Play → Payments & subscriptions → Subscriptions.
 

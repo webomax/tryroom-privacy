@@ -28,7 +28,7 @@ The short version:
 - **Clothing photos** you take or choose for your wardrobe.
 - **A full-body photo of yourself**, if you choose to add one, used to picture outfits on you.
 - **Text you type**, such as an occasion description ("dinner with friends") or styling preferences.
-- **Support chat messages**, if you use the in-app support assistant.
+- **Support chat messages**, if you use the in-app support assistant, and **your email address**, only if you give it so our team can reply to a support ticket.
 - **Emails** you send us.
 
 ### 1.2 Information created by the App
@@ -45,7 +45,7 @@ The short version:
 
 ### 1.4 Information we do not collect
 
-- We do not ask for your name, email address, phone number or postal address in the App.
+- We do not ask for your name, phone number or postal address in the App. We ask for an email address only in the support chat, when you want our team to contact you.
 - We do not collect payment card or bank details. Payments are handled by Apple or Google.
 - We do not collect precise or coarse location, contacts, calendars, health or fitness data.
 - We do not use your photos for face recognition or any biometric identification.
@@ -112,21 +112,28 @@ We share data only with the service providers below, and only what each needs to
 
 - **Purpose:** the in-app support assistant.
 - **Data shared:** your support messages, your anonymous account ID, device platform (iOS or Android) and app version. Our support automation sends the conversation to OpenRouter, which uses an OpenAI model to write the reply. Support conversation history may be kept so the assistant can follow the conversation.
+- If the assistant cannot answer, it may ask for your email address and save a support ticket (a short summary of your request, your email address, your anonymous account ID and a priority) in Airtable, so our team can reply.
 - Support chat asks for your separate consent before your first message.
 
-### 4.6 RevenueCat, Inc. — subscriptions
+### 4.6 Airtable, Inc. — support tickets
+
+- **Purpose:** storing support tickets so our team can follow up.
+- **Data shared:** ticket summary, the email address you gave, your anonymous account ID and priority. Only created when you ask for help from our team in the support chat.
+- Privacy policy: <https://www.airtable.com/company/privacy>
+
+### 4.7 RevenueCat, Inc. — subscriptions
 
 - **Purpose:** manage subscriptions and check whether you have Premium.
 - **Data shared:** your anonymous account ID, purchase and subscription records, device type and app version.
 - Privacy policy: <https://www.revenuecat.com/privacy>
 
-### 4.7 Apple and Google — app stores and payments
+### 4.8 Apple and Google — app stores and payments
 
 - **Purpose:** distributing the App and processing payments.
 - **Data shared:** purchases are processed directly by Apple (App Store) or Google (Google Play) under their own privacy policies.
 - Apple: <https://www.apple.com/legal/privacy/> · Google: <https://policies.google.com/privacy>
 
-### 4.8 Sentry (Functional Software, Inc.) — crash reporting
+### 4.9 Sentry (Functional Software, Inc.) — crash reporting
 
 - **Purpose:** find and fix crashes and errors.
 - **Data shared:** crash logs, error details, device model, operating system, app version and performance traces. We do not send your photos or the text you type to Sentry.
@@ -150,7 +157,7 @@ The support chat has its own separate consent, which you can withdraw in **Profi
 | Photos and text sent for AI | Passes through our server, not stored | Not kept by us. AI providers may keep data briefly under their own policies, for example for abuse monitoring |
 | Anonymous account ID and usage counters | Our server (EU) | Until you use Delete My Data |
 | Technical request logs | Our server provider | A few days, under Supabase's log retention |
-| Support conversations | Our support system | As long as needed to help you; deleted on request |
+| Support conversations and tickets (including your email) | Our support system and Airtable | As long as needed to help you; deleted on request |
 | Subscription records | RevenueCat, Apple or Google | As required for transaction and tax records |
 | Crash reports | Sentry | Up to 90 days |
 
@@ -159,7 +166,7 @@ The support chat has its own separate consent, which you can withdraw in **Profi
 - **Delete everything:** **Profile → Privacy → Delete My Data** deletes your wardrobe, photos, looks, history and settings on the device, and your anonymous account and usage records on our server. This cannot be undone. It does not cancel a subscription.
 - **Delete single items:** remove any wardrobe item or saved look at any time.
 - **Withdraw consent:** **Profile → Privacy**.
-- **Subscription records held by RevenueCat, and support conversations:** email us to have them deleted.
+- **Subscription records held by RevenueCat, support conversations and support tickets:** email us to have them deleted.
 - **Manage your subscription:** iOS: Settings → [your name] → Subscriptions. Android: Google Play → Payments & subscriptions → Subscriptions.
 
 ### 7.1 EEA, UK and Switzerland (GDPR)
@@ -180,7 +187,7 @@ To use any of these rights, use Delete My Data in the App or email us (see Conta
 
 ## 8. International Data Transfers
 
-Our server is in the EU. Some providers (Google, OpenRouter, OpenAI, RevenueCat, Sentry, Apple) may process data in the United States or other countries. Where required, these transfers rely on appropriate safeguards such as the European Commission's Standard Contractual Clauses or the EU-U.S. Data Privacy Framework.
+Our server is in the EU. Some providers (Google, OpenRouter, OpenAI, Airtable, RevenueCat, Sentry, Apple) may process data in the United States or other countries. Where required, these transfers rely on appropriate safeguards such as the European Commission's Standard Contractual Clauses or the EU-U.S. Data Privacy Framework.
 
 ## 9. Security
 
@@ -216,6 +223,7 @@ This Privacy Policy is governed by the laws of the Republic of Türkiye, without
 | Full-body photo (optional) | Outfit images on you | Google; OpenRouter (backup) | Anonymous ID only |
 | Occasion text and clothing details | Style suggestions | Google; OpenRouter and OpenAI (backup) | Anonymous ID only |
 | Support messages | Support | n8n (ours), OpenRouter, OpenAI | Anonymous ID only |
+| Email address (optional, support tickets) | Replying to your ticket | Airtable | Yes |
 | Anonymous account ID and usage counts | Limits, abuse prevention | Supabase | Anonymous ID only |
 | Purchase history | Subscriptions | RevenueCat, Apple or Google | Anonymous ID only |
 | Crash and performance data | Fixing bugs | Sentry | No |

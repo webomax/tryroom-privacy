@@ -1,316 +1,223 @@
-TryRoom – Privacy Policy
-Last Updated: March 19, 2026
-
-Effective Date: February 5, 2026
-
-Introduction
-Welcome to TryRoom. This Privacy Policy explains how Webomax Bilişim Teknolojileri Limited Şirketi ("Company," "we," "our," or "us") collects, uses, discloses, and protects your information when you use the TryRoom mobile application ("App").
-
-TryRoom is an AI-powered personal styling application that helps users organize their wardrobe, create outfit combinations, and receive personalized style recommendations.
-
-By downloading, installing, or using TryRoom, you agree to the collection and use of information in accordance with this Privacy Policy. If you do not agree with the terms of this Privacy Policy, please do not access or use the App.
-
-1. Information We Collect
-1.1 Information You Provide
-Photos and Images
-Photographs of clothing items and accessories you upload to your virtual wardrobe
-Personal photos you may upload for outfit visualization
-Images captured through your device's camera for wardrobe management
-Ocassion description you type
-Customer Support Communications
-Messages and conversations exchanged with our AI-powered support assistant
-Feedback, inquiries, and support requests you submit
-Any additional information you voluntarily provide during support interactions
-1.2 Information Collected Automatically
-Device Information
-Device identifiers (Device ID)
-Device type and model
-Operating system version
-App version
-Usage Data
-App interactions (features used, buttons tapped, screens viewed)
-App launch times and session duration
-Feature usage patterns
-Purchase Information
-Subscription status and type
-Purchase history and transaction records
-Subscription renewal and cancellation data
-Diagnostic Data
-Crash logs and error reports
-Performance data
-Technical diagnostics for troubleshooting
-1.3 Information We Do NOT Collect
-We do not require account creation or registration
-We do not collect your name, email address, phone number, or physical address
-We do not collect payment card numbers or bank account details (handled by Apple)
-We do not collect precise or coarse location data
-We do not access your contacts, calendar, or other personal data on your device
-We do not collect health or fitness data
-We do not collect biometric data
-We do not collet you wardrobe item, clothes or generated styles. They are stored on your local device.
-2. How We Use Your Information
-We use the information we collect for the following purposes:
-
-2.1 Core App Functionality
-To analyze your uploaded clothing and accessories using AI technology
-To generate personalized outfit recommendations and style suggestions
-To create and display outfit combinations from your virtual wardrobe
-To provide AI-powered styling for specific occasions
-2.2 AI Processing
-To send your uploaded images to our third-party AI service provider (Google) for analysis and style generation
-To process your styling requests and generate outfit recommendations
-To improve the accuracy and relevance of style suggestions
-2.3 Customer Support
-To respond to your inquiries and provide technical support
-To maintain conversation history for continuous support
-To improve our support services
-2.4 Subscription Management
-To process and manage your subscription through RevenueCat and Apple
-To verify your subscription status and provide access to premium features
-To handle subscription renewals and cancellations
-2.5 App Improvement
-To analyze usage patterns and improve app features
-To identify and fix bugs, crashes, and technical issues
-To optimize app performance and user experience
-2.6 Analytics
-To understand how users interact with the App
-To measure the effectiveness of features
-To make data-driven improvements to the App
-3. Data Storage and Security
-3.1 Local Storage
-Your personal data, including:
-
-Wardrobe items and photos
-Generated outfits and saved styles
-App preferences and settings
-are stored locally on your device. We do not store this data on our servers or in cloud storage.
-
-3.2 Data Security
-We implement appropriate technical and organizational measures to protect your information, including:
-
-Secure HTTPS connections for all data transmissions
-Encryption of data in transit
-Regular security assessments and updates
-3.3 Data Retention
-Local data: Retained on your device until you delete the App or clear App data
-Support conversations: Retained as long as necessary to provide ongoing support
-Analytics data: Retained in anonymized/aggregated form for service improvement
-Subscription data: Retained as required by Apple and RevenueCat for transaction records
-4. Third-Party Services and Data Sharing
-We share your information with the following third-party service providers:
-
-4.1 Google LLC ( Gemini AI )
-Purpose: AI-powered image analysis and style generation
+---
+title: TryRoom – Privacy Policy
+---
 
-Data Shared:
+# TryRoom – Privacy Policy
 
-Photos of clothing and accessories you upload
-Styling requests and occasion information
-Your profile photo ( if provided )
-Ocassion description you type
-Why: To analyze your wardrobe items and generate personalized outfit recommendations
+**Last Updated:** October 23, 2026
+**Effective Date:** October 23, 2026
 
-Google's Privacy Policy: https://policies.google.com/privacy
+## Introduction
 
-4.2 RevenueCat
-Purpose: Subscription and payment management
+This Privacy Policy explains how Webomax Bilişim Teknolojileri Limited Şirketi ("Company," "we," "our," or "us") collects, uses, shares and protects information when you use the TryRoom mobile application (the "App").
 
-Data Shared:
+TryRoom is an AI-powered personal styling app. You photograph your clothes, the App builds a virtual wardrobe on your device, and AI suggests and pictures outfit combinations.
 
-Device ID
-Purchase and subscription information
-Transaction history
-Why: To manage your subscription, verify purchases, and provide access to premium features
+The short version:
 
-RevenueCat's Privacy Policy: https://www.revenuecat.com/privacy
+- Your wardrobe, photos, saved looks and settings are stored **on your device**, not on our servers.
+- When you use an AI feature, the photos and text needed for that request are sent through our own server to an AI provider, used to answer that request, and **not stored** by our server.
+- You do not create an account. The App uses an anonymous ID with no name, email address or phone number attached.
+- You can delete everything from inside the App: **Profile → Privacy → Delete My Data**.
+- We do not sell your data and we do not use it for advertising.
 
-4.3 Apple App Store
-Purpose: Payment processing and app distribution
+## 1. Information We Process
 
-Data Shared:
+### 1.1 Information you provide
 
-Purchase information (processed directly by Apple)
-App usage data (as per Apple's policies)
-Why: To process payments and distribute the App
+- **Clothing photos** you take or choose for your wardrobe.
+- **A full-body photo of yourself**, if you choose to add one, used to picture outfits on you.
+- **Text you type**, such as an occasion description ("dinner with friends") or styling preferences.
+- **Support chat messages**, if you use the in-app support assistant.
+- **Emails** you send us.
 
-Apple's Privacy Policy: https://www.apple.com/legal/privacy/
+### 1.2 Information created by the App
 
-4.4 n8n (Customer Support)
-Purpose: AI-powered customer support
+- **An anonymous account ID.** On first launch the App signs in anonymously with our server provider (Supabase). This random ID has no name, email or phone number attached. It is used to apply usage limits, to link your subscription, and to delete your server-side records when you ask.
+- **Usage counters.** For each anonymous ID our server counts how many AI requests and outfit images ("styles") were used per day and per month, to apply the free and Premium limits and to protect the service from abuse.
+- **Wardrobe details** produced by AI analysis (item type, colors, category, season). These are stored on your device.
 
-Data Shared:
+### 1.3 Information collected automatically
 
-A local User Identifier
-Support chat messages and conversations
-Device platform and app version
-Why: To provide automated customer support and maintain conversation history
+- **Subscription status and purchase records**, through Apple or Google and RevenueCat.
+- **Crash reports and performance data** (for example the error, the screen it happened on, device model, operating system and app version), through Sentry.
+- **Technical request logs** on our server (time, request type, which AI model answered, success or error). These do not contain your photos or the text you typed.
 
-4.4 OpenAI
+### 1.4 Information we do not collect
 
-Purpose: AI-powered customer support and app services
+- We do not ask for your name, email address, phone number or postal address in the App.
+- We do not collect payment card or bank details. Payments are handled by Apple or Google.
+- We do not collect precise or coarse location, contacts, calendars, health or fitness data.
+- We do not use your photos for face recognition or any biometric identification.
+- We do not record audio. The App does not use the microphone.
+- We do not use advertising identifiers and we do not track you across other apps or websites.
 
-Data Shared:
+## 2. How We Use Information
 
-A local User Identifier
-Support chat messages and conversations
-Device platform and app version
-Information you provide during support interactions
-Photos and styling requests (for future app features)
-Why: To power our AI support assistant and provide intelligent responses to your inquiries. We may also use OpenAI services for additional app features in the future.
+- **To provide the App:** analyze clothing photos, suggest outfits for an occasion, and generate outfit images.
+- **To apply plan limits and prevent abuse:** count styles and requests per anonymous ID, apply daily safety limits, and pause the AI service if needed.
+- **To manage subscriptions:** confirm whether you have Premium and restore purchases.
+- **To provide support:** answer support chat messages and emails.
+- **To keep the App working:** find and fix crashes and errors.
 
-OpenAI's Privacy Policy: https://openai.com/privacy
+We do not use your photos or text to train AI models, and we do not sell or rent your information.
 
-4.5 Anthropic
+## 3. Where Your Data Is Stored
 
-Purpose: AI-powered customer support and app services
+### 3.1 On your device
 
-Data Shared:
+Your wardrobe items, clothing photos, your full-body photo, generated outfit images, saved looks, styling history and settings are stored **locally on your device**. They are not uploaded to our servers or to cloud storage. If you delete the App, this data is deleted with it, unless your device's own backup (for example iCloud or Google backup) has a copy.
 
-A local User Identifier
-Support chat messages and conversations
-Device platform and app version
-Information you provide during support interactions
-Photos and styling requests (for future app features)
-Why: To power our AI support assistant and provide intelligent responses to your inquiries. We may also use Anthropic services for additional app features in the future.
+### 3.2 On our server
 
-Anthropic's Privacy Policy: https://www.anthropic.com/privacy
+Our server runs on **Supabase** (Supabase, Inc.), hosted in the **European Union (Frankfurt, Germany)**. It stores only:
 
-Note: After adding these, renumber:
+- your anonymous account ID,
+- your usage counters (requests and styles per day and per month),
+- a cached copy of your subscription status, and
+- short-lived technical request logs.
 
-n8n becomes 4.6
+When you use an AI feature, your photos and text pass **through** this server on their way to the AI provider. The server does not save them.
 
-Firebase Crashlytics becomes 4.7
+## 4. Third-Party Services and Data Sharing
 
-4.5 Firebase Crashlytics
-Purpose: Crash reporting and diagnostics
+We share data only with the service providers below, and only what each needs to do its job.
 
-Data Shared:
+### 4.1 Google LLC (Gemini AI) — main AI provider
 
-Crash logs
-Device information
-App performance data
-Why: To identify and fix bugs and improve app stability
+- **Purpose:** analyze clothing photos, create style suggestions and generate outfit images.
+- **Data shared (only for the request you make):** clothing photos, your full-body photo (if you added one and create outfit images), occasion text and clothing details.
+- We use Google's paid Gemini API. Under Google's terms for paid services, prompts and responses are not used to improve Google's products. Google may keep data for a limited period to detect abuse.
+- Privacy policy: <https://policies.google.com/privacy>
 
-Firebase Privacy Policy: https://firebase.google.com/support/privacy
+### 4.2 OpenRouter, Inc. — backup AI provider
 
-5. Consent for AI Data Processing
-5.1 Third-Party AI Disclosure
-TryRoom uses Google's AI services to provide styling features. When you use AI-powered features in our App:
+- **Purpose:** used only when Google is unavailable, so the App keeps working.
+- **Data shared:** the same request that would have gone to Google. OpenRouter sends requests that include photos to Google models, and text-only requests to OpenAI models.
+- Privacy policy: <https://openrouter.ai/privacy>
 
-Your uploaded images and styling requests are transmitted to Google's servers
-Google processes this data to generate style recommendations
-This processing is essential for the App's core functionality
-5.2 Your Consent
-By using the AI styling features in TryRoom, you explicitly consent to:
+### 4.3 OpenAI — backup for text, and support replies, through OpenRouter
 
-The transmission of your photos and requests to Google's AI services
-The processing of this data for style generation purposes
-The use of AI-generated content within the App
-5.3 Opting Out
-If you do not wish to have your data processed by third-party AI services, you may:
+- **Purpose:** answering text-only styling requests when Google is unavailable, and writing support chat replies.
+- **Data shared:** text only (occasion text, clothing details, support messages). OpenAI never receives your photos from TryRoom.
+- Privacy policy: <https://openai.com/policies/privacy-policy>
 
-Choose not to use AI-powered styling features
-Delete the App from your device
-Please note that opting out of AI processing will limit the App's core functionality.
+### 4.4 Supabase, Inc. — our server
 
-6. Your Rights and Choices
-6.1 Access and Control
-You have the right to:
+- **Purpose:** anonymous sign-in, usage limits, and passing AI requests to the providers above.
+- **Data shared:** anonymous account ID, usage counters, and the AI requests passing through.
+- Hosted in the EU (Frankfurt). Privacy policy: <https://supabase.com/privacy>
 
-Access: View your wardrobe data stored locally on your device
-Delete: Remove any items from your virtual wardrobe at any time
-Data Deletion: Delete all App data by uninstalling the App from your device
-6.2 Support Data
-To request deletion of your customer support conversation history, please contact us at the email address provided below.
+### 4.5 n8n (support automation, run by us)
 
-6.3 Subscription Management
-You can manage your subscription at any time through:
+- **Purpose:** the in-app support assistant.
+- **Data shared:** your support messages, your anonymous account ID, device platform (iOS or Android) and app version. Our support automation sends the conversation to OpenRouter, which uses an OpenAI model to write the reply. Support conversation history may be kept so the assistant can follow the conversation.
+- Support chat asks for your separate consent before your first message.
 
-iOS: Settings → Apple ID → Subscriptions
-6.4 Analytics Opt-Out
-You may limit certain analytics data collection through your device settings:
+### 4.6 RevenueCat, Inc. — subscriptions
 
-iOS: Settings → Privacy & Security → Analytics & Improvements
-7. Children's Privacy
-TryRoom is not directed to children under the age of 13 (or the applicable age of digital consent in your jurisdiction). We do not knowingly collect personal information from children.
+- **Purpose:** manage subscriptions and check whether you have Premium.
+- **Data shared:** your anonymous account ID, purchase and subscription records, device type and app version.
+- Privacy policy: <https://www.revenuecat.com/privacy>
 
-If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately. If we discover that we have inadvertently collected information from a child, we will take steps to delete that information as soon as possible.
+### 4.7 Apple and Google — app stores and payments
 
-8. International Data Transfers
-Your information may be transferred to and processed in countries other than your country of residence, including:
+- **Purpose:** distributing the App and processing payments.
+- **Data shared:** purchases are processed directly by Apple (App Store) or Google (Google Play) under their own privacy policies.
+- Apple: <https://www.apple.com/legal/privacy/> · Google: <https://policies.google.com/privacy>
 
-United States (Google AI services, RevenueCat)
-Other countries where our service providers operate
-These countries may have data protection laws different from those in your country. By using the App, you consent to the transfer of your information to these countries.
+### 4.8 Sentry (Functional Software, Inc.) — crash reporting
 
-We ensure that appropriate safeguards are in place for international data transfers in accordance with applicable data protection laws.
+- **Purpose:** find and fix crashes and errors.
+- **Data shared:** crash logs, error details, device model, operating system, app version and performance traces. We do not send your photos or the text you type to Sentry.
+- Privacy policy: <https://sentry.io/privacy/>
 
-9. Data Protection Rights (EEA, UK, and Switzerland)
-If you are located in the European Economic Area (EEA), United Kingdom, or Switzerland, you have certain data protection rights under the General Data Protection Regulation (GDPR) and applicable local laws:
+We may also disclose information if the law requires it, or to protect the rights and safety of our users or the service.
 
-Right of Access: Request access to your personal data
-Right to Rectification: Request correction of inaccurate data
-Right to Erasure: Request deletion of your personal data
-Right to Restriction: Request restriction of processing
-Right to Data Portability: Request transfer of your data
-Right to Object: Object to processing of your personal data
-Right to Withdraw Consent: Withdraw consent at any time
-To exercise these rights, please contact us using the information provided below.
+## 5. Your Consent for AI Processing
 
-Legal Basis for Processing (GDPR):
+Before the App sends anything to an AI provider for the first time, it shows a **Data Sharing Consent** screen that names the providers and the data sent. Nothing is sent until you agree. If the providers change, the App asks you again.
 
-Consent: For AI processing of your photos
-Contract Performance: For providing App functionality and subscription services
-Legitimate Interests: For analytics, security, and service improvement
-10. California Privacy Rights (CCPA)
-If you are a California resident, you have specific rights under the California Consumer Privacy Act (CCPA):
+You can withdraw consent at any time in **Profile → Privacy → AI data sharing**. After that, AI features stop until you agree again. Withdrawing consent does not undo requests already made.
 
-Right to Know: What personal information we collect, use, and disclose
-Right to Delete: Request deletion of your personal information
-Right to Opt-Out: Opt-out of the sale of personal information
-Right to Non-Discrimination: Not receive discriminatory treatment for exercising your rights
-We do not sell your personal information.
+The support chat has its own separate consent, which you can withdraw in **Profile → Privacy → Support chat data sharing**.
 
-To exercise your CCPA rights, please contact us using the information provided below.
+## 6. Data Retention
 
-11. Do Not Track Signals
-Our App does not respond to "Do Not Track" signals. However, you can manage your privacy preferences through your device settings as described in this Privacy Policy.
+| Data | Where | How long |
+| --- | --- | --- |
+| Wardrobe, photos, saved looks, settings | Your device | Until you delete them, use Delete My Data, or delete the App |
+| Photos and text sent for AI | Passes through our server, not stored | Not kept by us. AI providers may keep data briefly under their own policies, for example for abuse monitoring |
+| Anonymous account ID and usage counters | Our server (EU) | Until you use Delete My Data |
+| Technical request logs | Our server provider | A few days, under Supabase's log retention |
+| Support conversations | Our support system | As long as needed to help you; deleted on request |
+| Subscription records | RevenueCat, Apple or Google | As required for transaction and tax records |
+| Crash reports | Sentry | Up to 90 days |
 
-12. Third-Party Links
-The App may contain links to third-party websites or services. We are not responsible for the privacy practices of these third parties. We encourage you to review the privacy policies of any third-party sites or services you visit.
+## 7. Your Rights and Choices
 
-13. Changes to This Privacy Policy
-We may update this Privacy Policy from time to time. We will notify you of any changes by:
+- **Delete everything:** **Profile → Privacy → Delete My Data** deletes your wardrobe, photos, looks, history and settings on the device, and your anonymous account and usage records on our server. This cannot be undone. It does not cancel a subscription.
+- **Delete single items:** remove any wardrobe item or saved look at any time.
+- **Withdraw consent:** **Profile → Privacy**.
+- **Subscription records held by RevenueCat, and support conversations:** email us to have them deleted.
+- **Manage your subscription:** iOS: Settings → [your name] → Subscriptions. Android: Google Play → Payments & subscriptions → Subscriptions.
 
-Updating the "Last Updated" date at the top of this Privacy Policy
-Providing notice within the App for material changes
-Your continued use of the App after any changes indicates your acceptance of the updated Privacy Policy.
+### 7.1 EEA, UK and Switzerland (GDPR)
 
-We encourage you to review this Privacy Policy periodically for any updates.
+You have the right to access, correct, delete, restrict or object to the processing of your personal data, the right to data portability, and the right to withdraw consent at any time. You also have the right to complain to your local data protection authority.
 
-14. Data Breach Notification
-In the event of a data breach that affects your personal information, we will:
+Our legal bases are:
 
-Notify affected users as required by applicable law
-Take immediate steps to investigate and mitigate the breach
-Implement measures to prevent future breaches
-15. Contact Us
-If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us at:
+- **Consent:** sending your photos and text to AI providers, and support chat.
+- **Contract:** providing the App and your subscription.
+- **Legitimate interests:** usage limits, abuse prevention, security and crash reporting.
+
+### 7.2 California (CCPA / CPRA)
+
+You have the right to know what personal information we collect, to delete it, to correct it, and not to be treated differently for using these rights. **We do not sell or share your personal information** for cross-context behavioral advertising.
+
+To use any of these rights, use Delete My Data in the App or email us (see Contact Us). Because we do not know who you are, we may ask for details that help us find your records, such as the date of a purchase.
+
+## 8. International Data Transfers
+
+Our server is in the EU. Some providers (Google, OpenRouter, OpenAI, RevenueCat, Sentry, Apple) may process data in the United States or other countries. Where required, these transfers rely on appropriate safeguards such as the European Commission's Standard Contractual Clauses or the EU-U.S. Data Privacy Framework.
+
+## 9. Security
+
+- All traffic between the App, our server and providers uses encrypted HTTPS connections.
+- AI provider keys are kept only on our server, never in the App.
+- Every AI request must come from a signed-in (anonymous) session and is subject to usage limits.
+
+No system is perfectly secure, but we work to protect your information and will notify affected users and authorities of a data breach where the law requires it.
+
+## 10. Children's Privacy
+
+TryRoom is not directed to children under 13 (or the minimum age of digital consent in your country, if higher). We do not knowingly collect personal information from children. If you believe a child has used the App and shared personal information, contact us and we will delete it.
+
+## 11. Changes to This Policy
+
+We may update this Privacy Policy. We will change the "Last Updated" date above and, for important changes (for example a new AI provider), tell you in the App and ask for your consent again where required.
+
+## 12. Contact Us
 
 Webomax Bilişim Teknolojileri Limited Şirketi
+Email: [info@webomax.net](mailto:info@webomax.net)
+Subject line: TryRoom Privacy Inquiry
 
-Email: info@webomax.net
+## 13. Governing Law
 
-Subject Line: TryRoom Privacy Inquiry
+This Privacy Policy is governed by the laws of the Republic of Türkiye, without affecting any rights you have under the data protection laws of your country.
 
-We will respond to your inquiry within a reasonable timeframe and in accordance with applicable law.
+## 14. Summary of Data Practices
 
-16. Governing Law
-This Privacy Policy is governed by the laws of the Republic of Türkiye, without regard to conflict-of-law principles.
-
-17. Summary of Data Practices
-| Data Type | Collected | Purpose | Shared With | Linked to Identity | |-----------|-----------|---------|-------------|-------------------| | Photos/Videos | Yes | AI styling, wardrobe management | Google AI | No | | Customer Support | Yes | Support services | n8n | Yes | | Device ID | Yes | Subscription management | RevenueCat | No | | User ID | Yes | Support history | n8n | Yes | | Purchase History | Yes | Subscription management | RevenueCat, Apple | No | | Usage Data | Yes | Analytics, improvement | Internal | No | | Crash Data | Yes | Bug fixes, stability | Firebase | No |
-
-By using TryRoom, you acknowledge that you have read, understood, and agree to this Privacy Policy.
+| Data type | Purpose | Shared with | Linked to you |
+| --- | --- | --- | --- |
+| Clothing photos | AI analysis and outfit images | Google; OpenRouter (backup) | Anonymous ID only |
+| Full-body photo (optional) | Outfit images on you | Google; OpenRouter (backup) | Anonymous ID only |
+| Occasion text and clothing details | Style suggestions | Google; OpenRouter and OpenAI (backup) | Anonymous ID only |
+| Support messages | Support | n8n (ours), OpenRouter, OpenAI | Anonymous ID only |
+| Anonymous account ID and usage counts | Limits, abuse prevention | Supabase | Anonymous ID only |
+| Purchase history | Subscriptions | RevenueCat, Apple or Google | Anonymous ID only |
+| Crash and performance data | Fixing bugs | Sentry | No |
 
 © 2026 Webomax Bilişim Teknolojileri Limited Şirketi. All rights reserved.

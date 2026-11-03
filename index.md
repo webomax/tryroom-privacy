@@ -4,8 +4,8 @@ title: TryRoom – Privacy Policy
 
 # TryRoom – Privacy Policy
 
-**Last Updated:** October 23, 2026
-**Effective Date:** October 23, 2026
+**Last Updated:** November 3, 2026
+**Effective Date:** November 3, 2026
 
 ## Introduction
 
@@ -42,6 +42,7 @@ The short version:
 - **Subscription status and purchase records**, through Apple or Google and RevenueCat.
 - **Crash reports and performance data** (for example the error, the screen it happened on, device model, operating system and app version), through Sentry.
 - **Technical request logs** on our server (time, request type, which AI model answered, success or error). These do not contain your photos or the text you typed.
+- **Creator referral data**, through InfluTo: a random install ID created by the App, your device platform (iOS or Android), the app version, your anonymous account ID and, if you opened TryRoom from a creator's link or entered a creator code, that code. See section 4.8.
 
 ### 1.4 Information we do not collect
 
@@ -57,6 +58,7 @@ The short version:
 - **To provide the App:** analyze clothing photos, suggest outfits for an occasion, and generate outfit images.
 - **To apply plan limits and prevent abuse:** count styles and requests per anonymous ID, apply daily safety limits, and pause the AI service if needed.
 - **To manage subscriptions:** confirm whether you have Premium and restore purchases.
+- **To pay creators who recommend TryRoom:** if you came from a creator's link or entered a creator code, credit that creator with a commission on your subscription. This never changes your price.
 - **To provide support:** answer support chat messages and emails.
 - **To keep the App working:** find and fix crashes and errors.
 
@@ -127,13 +129,20 @@ We share data only with the service providers below, and only what each needs to
 - **Data shared:** your anonymous account ID, purchase and subscription records, device type and app version.
 - Privacy policy: <https://www.revenuecat.com/privacy>
 
-### 4.8 Apple and Google — app stores and payments
+### 4.8 InfluTo — creator referral program
+
+- **Purpose:** some creators recommend TryRoom with a link or a creator code. InfluTo tells us whether your install came from a creator's link or a code you entered, so that creator can earn a commission from your subscription. Your price is the same with or without a code.
+- **Data shared:** a random install ID created by the App, device platform (iOS or Android), app version, your anonymous account ID, and the creator code if there is one. Like any internet service, InfluTo also sees your IP address; it uses it to match a recent tap on a creator's link to your install (within 72 hours), to determine your country and to prevent fraud. When you subscribe, renew or receive a refund, RevenueCat tells InfluTo about that subscription event (product, price and date) for your anonymous account ID, so the commission can be calculated.
+- InfluTo does **not** receive your photos, wardrobe, text, name or email address. It does not use advertising identifiers and does not track you across other apps or websites. Creators never see who you are.
+- InfluTo is based in the Czech Republic and its servers are in the European Union. Privacy policy: <https://influ.to/privacy>
+
+### 4.9 Apple and Google — app stores and payments
 
 - **Purpose:** distributing the App and processing payments.
 - **Data shared:** purchases are processed directly by Apple (App Store) or Google (Google Play) under their own privacy policies.
 - Apple: <https://www.apple.com/legal/privacy/> · Google: <https://policies.google.com/privacy>
 
-### 4.9 Sentry (Functional Software, Inc.) — crash reporting
+### 4.10 Sentry (Functional Software, Inc.) — crash reporting
 
 - **Purpose:** find and fix crashes and errors.
 - **Data shared:** crash logs, error details, device model, operating system, app version and performance traces. We do not send your photos or the text you type to Sentry.
@@ -159,14 +168,16 @@ The support chat has its own separate consent, which you can withdraw the same w
 | Technical request logs | Our server provider | A few days, under Supabase's log retention |
 | Support conversations and tickets (including your email) | Our support system and Airtable | As long as needed to help you; deleted on request |
 | Subscription records | RevenueCat, Apple or Google | As required for transaction and tax records |
+| Creator code on your device | Your device | Until you use Delete My Data or delete the App |
+| Creator referral records | InfluTo | As long as needed to pay commissions; commission and payout records up to 7 years for financial records |
 | Crash reports | Sentry | Up to 90 days |
 
 ## 7. Your Rights and Choices
 
-- **Delete everything:** **Profile → Privacy → Delete My Data** deletes your wardrobe, photos, looks, history and settings on the device, and your anonymous account and usage records on our server. This cannot be undone. It does not cancel a subscription.
+- **Delete everything:** **Profile → Privacy → Delete My Data** deletes your wardrobe, photos, looks, history, settings and any creator code on the device, and your anonymous account and usage records on our server. This cannot be undone. It does not cancel a subscription.
 - **Delete single items:** remove any wardrobe item or saved look at any time.
 - **Withdraw consent:** **Profile → Privacy → Delete My Data**, or email us.
-- **Subscription records held by RevenueCat, support conversations and support tickets:** email us to have them deleted.
+- **Subscription records held by RevenueCat, creator referral records held by InfluTo, support conversations and support tickets:** email us to have them deleted.
 - **Manage your subscription:** iOS: Settings → [your name] → Subscriptions. Android: Google Play → Payments & subscriptions → Subscriptions.
 
 ### 7.1 EEA, UK and Switzerland (GDPR)
@@ -177,7 +188,7 @@ Our legal bases are:
 
 - **Consent:** sending your photos and text to AI providers, and support chat.
 - **Contract:** providing the App and your subscription.
-- **Legitimate interests:** usage limits, abuse prevention, security and crash reporting.
+- **Legitimate interests:** usage limits, abuse prevention, security, crash reporting, and crediting the creator who recommended TryRoom to you.
 
 ### 7.2 California (CCPA / CPRA)
 
@@ -226,6 +237,7 @@ This Privacy Policy is governed by the laws of the Republic of Türkiye, without
 | Email address (optional, support tickets) | Replying to your ticket | Airtable | Yes |
 | Anonymous account ID and usage counts | Limits, abuse prevention | Supabase | Anonymous ID only |
 | Purchase history | Subscriptions | RevenueCat, Apple or Google | Anonymous ID only |
+| Install ID, app version, creator code | Paying creators a commission | InfluTo | Anonymous ID only |
 | Crash and performance data | Fixing bugs | Sentry | No |
 
 © 2026 Webomax Bilişim Teknolojileri Limited Şirketi. All rights reserved.

@@ -4,8 +4,8 @@ title: TryRoom – Privacy Policy
 
 # TryRoom – Privacy Policy
 
-**Last Updated:** November 3, 2026
-**Effective Date:** November 3, 2026
+**Last Updated:** November 19, 2026
+**Effective Date:** November 19, 2026
 
 ## Introduction
 
@@ -27,14 +27,19 @@ The short version:
 
 - **Clothing photos** you take or choose for your wardrobe.
 - **A full-body photo of yourself**, if you choose to add one, used to picture outfits on you.
+- **A face close-up**, if you choose to add one, used together with your full-body photo so outfit images look like you.
+- **Your height and preferred fit**, if you choose to add them, used to suggest lengths and silhouettes that suit you.
+- **Photos of items you are thinking of buying**, when you use Before you buy, to compare them with your wardrobe.
 - **Text you type**, such as an occasion description ("dinner with friends") or styling preferences.
+- **Codes you enter**: a friend's invite code or a creator code.
 - **Support chat messages**, if you use the in-app support assistant, and **your email address**, only if you give it so our team can reply to a support ticket.
 - **Emails** you send us.
 
 ### 1.2 Information created by the App
 
 - **An anonymous account ID.** On first launch the App signs in anonymously with our server provider (Supabase). This random ID has no name, email or phone number attached. It is used to apply usage limits, to link your subscription, and to delete your server-side records when you ask.
-- **Usage counters.** For each anonymous ID our server counts how many AI requests and outfit images ("styles") were used per day and per month, to apply the free and Premium limits and to protect the service from abuse.
+- **Usage counters.** For each anonymous ID our server counts how many AI requests, outfit images ("styles") and Before you buy checks were used per day and per month, to apply the free and Premium limits and to protect the service from abuse.
+- **Invite and referral records.** Each anonymous ID gets a random invite code. If you enter a code, our server records which code you used and, for a friend's invite code, links your anonymous ID to the anonymous ID of the friend who invited you, so both of you can receive bonus styles. It also keeps your bonus style balance and how many friends used your code. Neither of you learns who the other is; the App only shows counts.
 - **Wardrobe details** produced by AI analysis (item type, colors, category, season). These are stored on your device.
 
 ### 1.3 Information collected automatically
@@ -42,21 +47,23 @@ The short version:
 - **Subscription status and purchase records**, through Apple or Google and RevenueCat.
 - **Crash reports and performance data** (for example the error, the screen it happened on, device model, operating system and app version), through Sentry.
 - **Technical request logs** on our server (time, request type, which AI model answered, success or error). These do not contain your photos or the text you typed.
+- **Date, time zone and language settings.** AI requests include today's date and your phone's time zone setting (for example "Europe/Istanbul"), so suggestions fit the season, and your phone's language setting, so AI-written text is in your language. The App does not access your device's location.
 - **Creator referral data**, through InfluTo: a random install ID created by the App, your device platform (iOS or Android), the app version, your anonymous account ID and, if you opened TryRoom from a creator's link or entered a creator code, that code. See section 4.8.
 
 ### 1.4 Information we do not collect
 
 - We do not ask for your name, phone number or postal address in the App. We ask for an email address only in the support chat, when you want our team to contact you.
 - We do not collect payment card or bank details. Payments are handled by Apple or Google.
-- We do not collect precise or coarse location, contacts, calendars, health or fitness data.
+- We do not collect precise or coarse location (the App only reads your time zone setting, see 1.3), contacts, calendars, health or fitness data.
 - We do not use your photos for face recognition or any biometric identification.
 - We do not record audio. The App does not use the microphone.
 - We do not use advertising identifiers and we do not track you across other apps or websites.
 
 ## 2. How We Use Information
 
-- **To provide the App:** analyze clothing photos, suggest outfits for an occasion, and generate outfit images.
-- **To apply plan limits and prevent abuse:** count styles and requests per anonymous ID, apply daily safety limits, and pause the AI service if needed.
+- **To provide the App:** analyze clothing photos, suggest outfits for an occasion and the season, compare items you are thinking of buying with your wardrobe, and generate outfit images.
+- **To apply plan limits and prevent abuse:** count styles, Before you buy checks and requests per anonymous ID, apply daily safety limits, and pause the AI service if needed.
+- **To run Invite Friends and codes:** give bonus styles to you and to the friend who invited you, apply the program's rules (one code per account, a limited number of rewarded invites) and prevent abuse.
 - **To manage subscriptions:** confirm whether you have Premium and restore purchases.
 - **To pay creators who recommend TryRoom:** if you came from a creator's link or entered a creator code, credit that creator with a commission on your subscription. This never changes your price.
 - **To provide support:** answer support chat messages and emails.
@@ -68,14 +75,17 @@ We do not use your photos or text to train AI models, and we do not sell or rent
 
 ### 3.1 On your device
 
-Your wardrobe items, clothing photos, your full-body photo, generated outfit images, saved looks, styling history and settings are stored **locally on your device**. They are not uploaded to our servers or to cloud storage. If you delete the App, this data is deleted with it, unless your device's own backup (for example iCloud or Google backup) has a copy.
+Your wardrobe items, clothing photos, your full-body photo and face close-up, your height and preferred fit, generated outfit images, saved looks, styling history and settings are stored **locally on your device**. They are not uploaded to our servers or to cloud storage. If you delete the App, this data is deleted with it, unless your device's own backup (for example iCloud or Google backup) has a copy.
+
+On iPhones with iOS 17 or later, new clothing photos may be placed on a white background using Apple's on-device image processing. This happens entirely on your device; the photo is not sent anywhere for it.
 
 ### 3.2 On our server
 
 Our server runs on **Supabase** (Supabase, Inc.), hosted in the **European Union (Frankfurt, Germany)**. It stores only:
 
 - your anonymous account ID,
-- your usage counters (requests and styles per day and per month),
+- your usage counters (requests, styles and Before you buy checks per day and per month),
+- your invite code, the code you entered (a friend's invite code or a creator code), the link to the friend who invited you, and your bonus style balance,
 - a cached copy of your subscription status, and
 - short-lived technical request logs.
 
@@ -88,7 +98,7 @@ We share data only with the service providers below, and only what each needs to
 ### 4.1 Google LLC (Gemini AI) — main AI provider
 
 - **Purpose:** analyze clothing photos, create style suggestions and generate outfit images.
-- **Data shared (only for the request you make):** clothing photos, your full-body photo (if you added one and create outfit images), occasion text and clothing details.
+- **Data shared (only for the request you make):** clothing photos, photos of items you are thinking of buying (Before you buy), your full-body photo and face close-up (if you added them and create outfit images), your height and preferred fit (if added), occasion text, clothing details, and today's date, your time zone and language setting.
 - We use Google's paid Gemini API. Under Google's terms for paid services, prompts and responses are not used to improve Google's products. Google may keep data for a limited period to detect abuse.
 - Privacy policy: <https://policies.google.com/privacy>
 
@@ -101,13 +111,13 @@ We share data only with the service providers below, and only what each needs to
 ### 4.3 OpenAI — backup for text, and support replies, through OpenRouter
 
 - **Purpose:** answering text-only styling requests when Google is unavailable, and writing support chat replies.
-- **Data shared:** text only (occasion text, clothing details, support messages). OpenAI never receives your photos from TryRoom.
+- **Data shared:** text only (occasion text, clothing details, height and preferred fit if added, date, time zone and language setting, support messages). OpenAI never receives your photos from TryRoom.
 - Privacy policy: <https://openai.com/policies/privacy-policy>
 
 ### 4.4 Supabase, Inc. — our server
 
-- **Purpose:** anonymous sign-in, usage limits, and passing AI requests to the providers above.
-- **Data shared:** anonymous account ID, usage counters, and the AI requests passing through.
+- **Purpose:** anonymous sign-in, usage limits, Invite Friends and codes, and passing AI requests to the providers above.
+- **Data shared:** anonymous account ID, usage counters, invite and referral records and bonus style balance, and the AI requests passing through.
 - Hosted in the EU (Frankfurt). Privacy policy: <https://supabase.com/privacy>
 
 ### 4.5 n8n (support automation, run by us)
@@ -134,6 +144,7 @@ We share data only with the service providers below, and only what each needs to
 - **Purpose:** some creators recommend TryRoom with a link or a creator code. InfluTo tells us whether your install came from a creator's link or a code you entered, so that creator can earn a commission from your subscription. Your price is the same with or without a code.
 - **Data shared:** a random install ID created by the App, device platform (iOS or Android), app version, your anonymous account ID, and the creator code if there is one. Like any internet service, InfluTo also sees your IP address; it uses it to match a recent tap on a creator's link to your install (within 72 hours), to determine your country and to prevent fraud. When you subscribe, renew or receive a refund, RevenueCat tells InfluTo about that subscription event (product, price and date) for your anonymous account ID, so the commission can be calculated.
 - InfluTo does **not** receive your photos, wardrobe, text, name or email address. It does not use advertising identifiers and does not track you across other apps or websites. Creators never see who you are.
+- If you enter a creator code, or install TryRoom from a creator's link, our own server also stores that code with your anonymous ID so you can receive bonus styles (see 1.2). Friend invite codes are handled only by our server, not by InfluTo.
 - InfluTo is based in the Czech Republic and its servers are in the European Union. Privacy policy: <https://influ.to/privacy>
 
 ### 4.9 Apple and Google — app stores and payments
@@ -165,6 +176,7 @@ The support chat has its own separate consent, which you can withdraw the same w
 | Wardrobe, photos, saved looks, settings | Your device | Until you delete them, use Delete My Data, or delete the App |
 | Photos and text sent for AI | Passes through our server, not stored | Not kept by us. AI providers may keep data briefly under their own policies, for example for abuse monitoring |
 | Anonymous account ID and usage counters | Our server (EU) | Until you use Delete My Data |
+| Invite code, code you entered, referral link, bonus styles | Our server (EU) | Until you use Delete My Data. If the friend who invited you deletes their data, the link to them is removed |
 | Technical request logs | Our server provider | A few days, under Supabase's log retention |
 | Support conversations and tickets (including your email) | Our support system and Airtable | As long as needed to help you; deleted on request |
 | Subscription records | RevenueCat, Apple or Google | As required for transaction and tax records |
@@ -174,7 +186,7 @@ The support chat has its own separate consent, which you can withdraw the same w
 
 ## 7. Your Rights and Choices
 
-- **Delete everything:** **Profile → Privacy → Delete My Data** deletes your wardrobe, photos, looks, history, settings and any creator code on the device, and your anonymous account and usage records on our server. This cannot be undone. It does not cancel a subscription.
+- **Delete everything:** **Profile → Privacy → Delete My Data** deletes your wardrobe, photos, looks, history, settings and any creator code on the device, and your anonymous account, usage records, invite and referral records and bonus styles on our server. This cannot be undone. It does not cancel a subscription.
 - **Delete single items:** remove any wardrobe item or saved look at any time.
 - **Withdraw consent:** **Profile → Privacy → Delete My Data**, or email us.
 - **Subscription records held by RevenueCat, creator referral records held by InfluTo, support conversations and support tickets:** email us to have them deleted.
@@ -188,7 +200,7 @@ Our legal bases are:
 
 - **Consent:** sending your photos and text to AI providers, and support chat.
 - **Contract:** providing the App and your subscription.
-- **Legitimate interests:** usage limits, abuse prevention, security, crash reporting, and crediting the creator who recommended TryRoom to you.
+- **Legitimate interests:** usage limits, abuse prevention, security, crash reporting, running Invite Friends and codes, and crediting the creator who recommended TryRoom to you.
 
 ### 7.2 California (CCPA / CPRA)
 
@@ -231,11 +243,14 @@ This Privacy Policy is governed by the laws of the Republic of Türkiye, without
 | Data type | Purpose | Shared with | Linked to you |
 | --- | --- | --- | --- |
 | Clothing photos | AI analysis and outfit images | Google; OpenRouter (backup) | Anonymous ID only |
-| Full-body photo (optional) | Outfit images on you | Google; OpenRouter (backup) | Anonymous ID only |
-| Occasion text and clothing details | Style suggestions | Google; OpenRouter and OpenAI (backup) | Anonymous ID only |
+| Full-body photo and face close-up (optional) | Outfit images on you | Google; OpenRouter (backup) | Anonymous ID only |
+| Photos of items you may buy | Before you buy | Google; OpenRouter (backup) | Anonymous ID only |
+| Occasion text, clothing details, height and fit (optional) | Style suggestions | Google; OpenRouter and OpenAI (backup) | Anonymous ID only |
+| Date, time zone and language setting | Seasonal suggestions, AI text in your language | Google; OpenRouter and OpenAI (backup) | Anonymous ID only |
 | Support messages | Support | n8n (ours), OpenRouter, OpenAI | Anonymous ID only |
 | Email address (optional, support tickets) | Replying to your ticket | Airtable | Yes |
 | Anonymous account ID and usage counts | Limits, abuse prevention | Supabase | Anonymous ID only |
+| Invite and creator codes, referral link, bonus styles | Invite Friends and codes | Supabase | Anonymous ID only |
 | Purchase history | Subscriptions | RevenueCat, Apple or Google | Anonymous ID only |
 | Install ID, app version, creator code | Paying creators a commission | InfluTo | Anonymous ID only |
 | Crash and performance data | Fixing bugs | Sentry | No |

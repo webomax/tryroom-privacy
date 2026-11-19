@@ -47,7 +47,7 @@ The short version:
 - **Subscription status and purchase records**, through Apple or Google and RevenueCat.
 - **Crash reports and performance data** (for example the error, the screen it happened on, device model, operating system and app version), through Sentry.
 - **Technical request logs** on our server (time, request type, which AI model answered, success or error). These do not contain your photos or the text you typed.
-- **Date, time zone and language settings.** AI requests include today's date and your phone's time zone setting (for example "Europe/Istanbul"), so suggestions fit the season, and your phone's language setting, so AI-written text is in your language. The App does not access your device's location.
+- **Date, time zone and language settings.** AI requests include today's date and your phone's time zone setting (for example "Europe/Istanbul"), so suggestions fit the season, and your phone's language setting, so AI-written text is in your language. You can stop sending the date and time zone with **Profile → Settings → Match the Season**. The App does not access your device's location.
 - **Creator referral data**, through InfluTo: a random install ID created by the App, your device platform (iOS or Android), the app version, your anonymous account ID and, if you opened TryRoom from a creator's link or entered a creator code, that code. See section 4.8.
 
 ### 1.4 Information we do not collect

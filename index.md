@@ -110,7 +110,7 @@ We share data only with the service providers below, and only what each needs to
 
 ### 4.3 OpenAI — backup for text, and support replies, through OpenRouter
 
-- **Purpose:** answering text-only styling requests when Google is unavailable, and writing support chat replies.
+- **Purpose:** answering text-only styling requests when Google is unavailable, and writing support chat replies when our backup support service (n8n) answers.
 - **Data shared:** text only (occasion text, clothing details, height and preferred fit if added, date, time zone and language setting, support messages). OpenAI never receives your photos from TryRoom.
 - Privacy policy: <https://openai.com/policies/privacy-policy>
 
@@ -120,11 +120,13 @@ We share data only with the service providers below, and only what each needs to
 - **Data shared:** anonymous account ID, usage counters, invite and referral records and bonus style balance, and the AI requests passing through.
 - Hosted in the EU (Frankfurt). Privacy policy: <https://supabase.com/privacy>
 
-### 4.5 n8n (support automation, run by us)
+### 4.5 Simurg and n8n (support assistant, run by us)
 
-- **Purpose:** the in-app support assistant.
-- **Data shared:** your support messages, your anonymous account ID, device platform (iOS or Android) and app version. Our support automation sends the conversation to OpenRouter, which uses an OpenAI model to write the reply. Support conversation history may be kept so the assistant can follow the conversation.
-- If the assistant cannot answer, it may ask for your email address and save a support ticket (a short summary of your request, your email address, your anonymous account ID and a priority) in Airtable, so our team can reply.
+- **Purpose:** the in-app support assistant. Your messages pass through our server (Supabase) on the way.
+- **Simurg** (our AI support assistant) answers first. It receives your support messages and a random chat ID created each time you open the chat. It does not receive your anonymous account ID, name or email address. Simurg uses AI models from third-party providers to write the reply, and keeps the conversation so the assistant can follow it and, if you ask for a person, so our team can follow up. Simurg privacy policy: <https://simurg.me/privacy>
+- **n8n** (our support automation) answers only if Simurg is unavailable. It receives your support messages, your anonymous account ID, device platform (iOS or Android) and app version, and sends the conversation to OpenRouter, which uses an OpenAI model to write the reply. Support conversation history may be kept so the assistant can follow the conversation.
+- If the assistant cannot answer, it may ask for your email address so our team can reply. Simurg passes the conversation to our team; n8n saves a support ticket (a short summary of your request, your email address, your anonymous account ID and a priority) in Airtable.
+- If neither service can answer, the App offers to email us at <tryroom@webomax.net> instead.
 - Support chat asks for your separate consent before your first message.
 
 ### 4.6 Airtable, Inc. — support tickets
@@ -247,7 +249,7 @@ This Privacy Policy is governed by the laws of the Republic of Türkiye, without
 | Photos of items you may buy | Before you buy | Google; OpenRouter (backup) | Anonymous ID only |
 | Occasion text, clothing details, height and fit (optional) | Style suggestions | Google; OpenRouter and OpenAI (backup) | Anonymous ID only |
 | Date, time zone and language setting | Seasonal suggestions, AI text in your language | Google; OpenRouter and OpenAI (backup) | Anonymous ID only |
-| Support messages | Support | n8n (ours), OpenRouter, OpenAI | Anonymous ID only |
+| Support messages | Support | Simurg (ours); n8n (ours), OpenRouter and OpenAI (backup) | Random chat ID (Simurg); anonymous ID (n8n) |
 | Email address (optional, support tickets) | Replying to your ticket | Airtable | Yes |
 | Anonymous account ID and usage counts | Limits, abuse prevention | Supabase | Anonymous ID only |
 | Invite and creator codes, referral link, bonus styles | Invite Friends and codes | Supabase | Anonymous ID only |
